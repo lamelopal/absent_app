@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:absensi/ui/attend/camera.dart';
 import 'package:dotted_border/dotted_border.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:geocoding/geocoding.dart';
@@ -113,7 +114,7 @@ class _AttendScreenState extends State<AttendScreen> {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: (context) => const Placeholder()),
+                        builder: (context) => const CameraScreen()),
                   );
                 },
                 child: Container(

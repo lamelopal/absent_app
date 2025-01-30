@@ -132,6 +132,7 @@ class _AbsenScreenState extends State<AbsenScreen> {
                     value: dropValueCategories,
                     items: categoriesList.map((value) {
                       return DropdownMenuItem(
+                        value: value,
                         child: Text(
                           value.toString(),
                           style: const TextStyle(
